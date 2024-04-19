@@ -1,0 +1,38 @@
+@import "./variables";
+
+.card{
+    background-color: $third;
+    width: 75% !important;
+    height: 80vh;
+    text-align: center;
+    border-radius: 22px;
+}
+
+.card h3{
+    color: $primary;
+    font-weight: 600;
+}
+
+.card p{
+    font-size: 16px;
+    color: $fourth;
+
+}
+
+
+.card span{
+    font-weight: 600;
+    color: $fourth !important;
+}
+
+
+.text-output-style{
+    background: $fourth;
+    color: $primary !important;
+    width: 100%;
+    height: 100%;
+    padding: 18px;
+    text-align: start;
+    border-radius: 21px !important;
+}
+
