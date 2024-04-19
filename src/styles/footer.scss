@@ -1,0 +1,24 @@
+@import "./variables";
+
+.footer__color{
+    background-color: $third !important;
+    padding: 15px;
+    border-radius: 32px 32px 0 0;
+    font-size: 20px;
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+    height: 50px;
+}
+
+@media (max-width: 767px) {
+    span{
+        font-size: 15px !important;  
+    }
+  }
+
+span{
+    color: $primary !important;
+    font-size: 20px;
+}
+
